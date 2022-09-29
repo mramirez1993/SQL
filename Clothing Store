@@ -1,0 +1,37 @@
+/** Clothing store: 
+Pants
+sweatpants
+Tshirts
+Blouses
+Denim Shorts
+Socks
+Bras
+Underwear
+Jackets
+Baby clothes
+Athletic shorts
+Sweaters
+Knit tops
+Jumpsuits
+Bathing suits
+**/
+
+CREATE TABLE Clothing (ID INTEGER PRIMARY KEY, Item TEXT, Best_Seller INTEGER, Sales NUMERIC, Inventory NUMERIC) ;
+
+INSERT INTO CLOTHING VALUES (1, "Pants",1, 20, 2);
+INSERT INTO CLOTHING VALUES (2, "Sweatpants",2, 20, 4);
+INSERT INTO CLOTHING VALUES (3, "Tshirts",3, 11, 6);
+INSERT INTO CLOTHING VALUES (4, "Blouses",4, 11, 8); 
+INSERT INTO CLOTHING VALUES (5, "Denim Shorts", 5, 2, 10);
+INSERT INTO CLOTHING VALUES (6, "Socks",6, 2, 12);
+INSERT INTO CLOTHING VALUES (7, "Bras",7, 4, 14); 
+INSERT INTO CLOTHING VALUES (8, "Underwear", 8, 4, 16);
+INSERT INTO CLOTHING VALUES (9, "Jackets", 9, 5, 18);
+INSERT INTO CLOTHING VALUES (10, "Baby Clothes",10, 7, 20);
+INSERT INTO CLOTHING VALUES (11, "Athletic Shorts",11, 1, 22); 
+INSERT INTO CLOTHING VALUES (12, "Sweaters", 12, 1, 24);
+INSERT INTO CLOTHING VALUES (13, "Knit Tops", 13, 1, 26);
+INSERT INTO CLOTHING VALUES (14, "Jumpsuits",14, 1, 28);
+INSERT INTO CLOTHING VALUES (15, "Bathing Suits",15, 1, 30); 
+
+SELECT * FROM CLOTHING;
